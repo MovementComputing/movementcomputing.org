@@ -22,7 +22,7 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"
             >
               <a>News</a>
             </nuxt-link>
