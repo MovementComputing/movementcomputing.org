@@ -1,7 +1,6 @@
 const cssnext = require('postcss-cssnext');
 const fs = require('fs');
 const path = require('path');
-const ContentManagerPlugin = require('./webpack/content-plugin');
 
 module.exports = {
   /*
