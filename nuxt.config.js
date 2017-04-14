@@ -1,6 +1,6 @@
 const cssnext = require('postcss-cssnext');
-const fs = require('fs');
 const path = require('path');
+const recursiveReaddir = require('recursive-readdir');
 
 module.exports = {
   /*
@@ -31,9 +31,7 @@ module.exports = {
    */
   build: {
     // analyze: true,
-    postcss: [
-      cssnext(),
-    ],
+    postcss: [cssnext()],
     loaders: [
       {
         test: /\.(png|jpe?g|gif|svg)$/,
@@ -52,8 +50,8 @@ module.exports = {
         },
       },
       {
-        test: /\.md$/,
-        loader: 'json-loader!./webpack/markdown-loader',
+        test: /\.bib$/,
+        loader: './webpack/bibtex-loader',
       },
     ],
     /*
@@ -72,13 +70,11 @@ module.exports = {
   },
   generate: {
     routes(callback) {
-      let dynamicRoutes = [];
-      fs.readdir('./content/', (err, files) => {
-        dynamicRoutes = dynamicRoutes.concat(files.filter(x => path.extname(x) === '.md').map(x => x.slice(0, -3)));
-        return fs.readdir('./content/posts/', (err2, files2) => {
-          dynamicRoutes = dynamicRoutes.concat(files2.filter(x => path.extname(x) === '.md').map(x => x.slice(0, -3)));
-          return callback(null, dynamicRoutes);
-        });
+      recursiveReaddir('./content/', (err, files) => {
+        callback(null,
+          files
+            .filter(x => path.extname(x) === '.md')
+            .map(x => `/${path.basename(x, '.md')}/`));
       });
     },
   },

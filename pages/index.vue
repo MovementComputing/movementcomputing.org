@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import posts from '../content/postlist.json';
+import posts from '../static/content/postlist.json';
 
 export default {
   asyncData() {
