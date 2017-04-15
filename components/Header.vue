@@ -1,5 +1,5 @@
 <template>
-  <header id="site-header" class="site-header">
+  <header id="site-header" class="site-header" role="banner">
     <div id="title-container" class="title-container">
       <div id="site-title" class="site-title">
         <nuxt-link to="/">
@@ -9,11 +9,12 @@
       </div>
       <p class="tagline">Movement + Computing Community</p>
     </div>
-    <button id="toggle-navigation" class="toggle-navigation" name="toggle-navigation" aria-expanded="false">
+    <button id="toggle-navigation" class="toggle-navigation" :class="showMenu ? 'open' : ''" v-on:click="toggleMenu" style="cursor: pointer;">
       <span class="screen-reader-text">open menu</span>
       <i class="fa fa-bars" title="primary menu icon" aria-hidden="true"></i>
+      <svg width="28" height="28" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"/></svg>
     </button>
-    <div id="menu-primary-container" class="menu-primary-container" style="display: block;">
+    <div id="menu-primary-container" class="menu-primary-container" :class="showMenu ? 'open' : ''" >
       <div id="menu-primary" class="menu-container menu-primary" role="navigation">
         <nav class="menu">
           <ul id="menu-primary-items" class="menu-primary-items">
@@ -79,14 +80,20 @@
       </div>
       <ul class="social-media-icons">
         <li>
-          <a class="twitter" target="_blank" href="https://twitter.com/MOCO_Symposium">
-            <i class="fa fa-twitter-square" title="twitter"></i>
+          <a class="twitter" target="_blank" href="https://twitter.com/MOCO_Conference">
+            <svg width="30" height="30" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/></svg>
             <span class="screen-reader-text">twitter</span>
           </a>
         </li>
         <li>
-          <a class="email" target="_blank" href="mailto:moco-share@sfu.ca">
-            <i class="fa fa-envelope" title="email"></i>
+          <a class="email" target="_blank" href="https://groups.google.com/forum/#!forum/movementcomputing">
+            <svg style="margin-top: -5px;background-color: black; border-radius: 20%;" width="26" height="26" viewBox="-400 -400 2592 2592" xmlns="http://www.w3.org/2000/svg"><path fill="white" d="M529 896q-162 5-265 128h-134q-82 0-138-40.5t-56-118.5q0-353 124-353 6 0 43.5 21t97.5 42.5 119 21.5q67 0 133-23-5 37-5 66 0 139 81 256zm1071 637q0 120-73 189.5t-194 69.5h-874q-121 0-194-69.5t-73-189.5q0-53 3.5-103.5t14-109 26.5-108.5 43-97.5 62-81 85.5-53.5 111.5-20q10 0 43 21.5t73 48 107 48 135 21.5 135-21.5 107-48 73-48 43-21.5q61 0 111.5 20t85.5 53.5 62 81 43 97.5 26.5 108.5 14 109 3.5 103.5zm-1024-1277q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm704 384q0 159-112.5 271.5t-271.5 112.5-271.5-112.5-112.5-271.5 112.5-271.5 271.5-112.5 271.5 112.5 112.5 271.5zm576 225q0 78-56 118.5t-138 40.5h-134q-103-123-265-128 81-117 81-256 0-29-5-66 66 23 133 23 59 0 119-21.5t97.5-42.5 43.5-21q124 0 124 353zm-128-609q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181z"/></svg>
+            <span class="screen-reader-text">discussion group</span>
+          </a>
+        </li>
+        <li>
+          <a class="email" href="mailto:moco-share@sfu.ca">
+            <svg width="30" height="30" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960zm32 1056v-436q-31 35-64 55-34 22-132.5 85t-151.5 99q-98 69-164 69t-164-69q-46-32-141.5-92.5t-142.5-92.5q-12-8-33-27t-31-27v436q0 40 28 68t68 28h832q40 0 68-28t28-68zm0-573q0-41-27.5-70t-68.5-29h-832q-40 0-68 28t-28 68q0 37 30.5 76.5t67.5 64.5q47 32 137.5 89t129.5 83q3 2 17 11.5t21 14 21 13 23.5 13 21.5 9.5 22.5 7.5 20.5 2.5 20.5-2.5 22.5-7.5 21.5-9.5 23.5-13 21-13 21-14 17-11.5l267-174q35-23 66.5-62.5t31.5-73.5z"/></svg>
             <span class="screen-reader-text">email</span>
           </a>
         </li>
@@ -94,3 +101,14 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  props: ['showMenu'],
+  methods: {
+    toggleMenu() {
+      this.showMenu = !this.showMenu;
+    },
+  },
+};
+</script>

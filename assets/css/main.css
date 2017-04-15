@@ -1913,7 +1913,7 @@ ul.papercite_bibliography li {
 }
 
 #overflow-container {
-	background-image: url("http://movementcomputing.iat.sfu.ca/wordpress/wp-content/uploads/2015/10/moco_header.png");
+	background-image: url("/images/moco_header.png");
 	background-repeat: no-repeat;
 	-webkit-background-size: 100% auto;
 	-moz-background-size: 100% auto;

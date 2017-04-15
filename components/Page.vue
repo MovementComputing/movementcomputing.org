@@ -27,7 +27,6 @@ export default {
   methods: {
     formatDate(dateStr) {
       const date = dateStr.split('T')[0].split('-');
-      console.log(date);
       const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(date[1] - 1)];
       return `${month} ${date[2]}, ${date[0]}`;
     },
