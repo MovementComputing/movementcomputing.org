@@ -11,7 +11,7 @@
             <article>
               <div class="post-header">
                 <h2 class="post-title">
-                  <a :href="post.attributes.slug">{{post.attributes.title}}</a>
+                  <nuxt-link :to="post.attributes.slug">{{post.attributes.title}}</nuxt-link>
                 </h2>
                 <div class="post-meta">
                   <p>Published {{formatDate(post.attributes.date)}} by {{post.attributes.author}}</p>
@@ -20,7 +20,7 @@
               <div class="post-content">
                 <p>{{post.body}}</p>
                 <center>
-                  <a class="more-link" href="/call-for-hosting-moco-in-2018-2019/">Continue reading <span class="screen-reader-text">Call for Hosting MOCO in 2018 &amp; 2019</span></a>
+                  <nuxt-link class="more-link" :to="post.attributes.slug">Continue reading <span class="screen-reader-text">Call for Hosting MOCO in 2018 &amp; 2019</span></nuxt-link>
                 </center>
               </div>
             </article>
