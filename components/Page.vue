@@ -6,7 +6,10 @@
           <div class="post-12 page type-page status-publish hentry entry">
             <article>
               <div class="post-header">
-                <h1 class="post-title">{{title}}</h1>
+                <h1 class="post-title">{{meta.title}}</h1>
+                <div v-if="meta.type === 'post'" class="post-meta">
+                  <p>Published {{formatDate(meta.date)}} by {{meta.author}}</p>
+                </div>
               </div>
               <div v-html="content" class="post-content">
               </div>
@@ -20,7 +23,15 @@
 
 <script>
 export default {
-  props: ['title', 'content'],
+  props: ['meta', 'content'],
+  methods: {
+    formatDate(dateStr) {
+      const date = dateStr.split('T')[0].split('-');
+      console.log(date);
+      const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(date[1] - 1)];
+      return `${month} ${date[2]}, ${date[0]}`;
+    },
+  },
 };
 </script>
 

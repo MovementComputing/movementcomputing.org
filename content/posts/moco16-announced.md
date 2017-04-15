@@ -1,8 +1,10 @@
 ---
 title: MOCO'16 Announced
 date: 2015-11-17 03:06:51+00:00
+author: Jules Françoise
 type: post
 slug: moco16-announced
+hook: After two amazing years in Paris and Vancouver, it is our pleasure to announce that MOCO'16 will be held in the beautiful Thessaloniki, Greece, early July 2016...
 ---
 
 After two amazing years in Paris and Vancouver, it is our pleasure to announce that MOCO'16 will be held in the beautiful Thessaloniki, Greece, early July 2016.

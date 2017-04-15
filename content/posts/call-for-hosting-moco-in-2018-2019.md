@@ -1,8 +1,10 @@
 ---
 title: Call for Hosting MOCO in 2018 & 2019
 date: 2017-04-05 21:02:58+00:00
+author: Jules Françoise
 type: post
 slug: call-for-hosting-moco-in-2018-2019
+hook: The MOCO Steering Committee is looking for hosts for MOCO’18 and MOCO’19...
 ---
 
 The MOCO Steering Committee is looking for hosts for MOCO’18 and MOCO’19.

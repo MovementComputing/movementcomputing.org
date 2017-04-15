@@ -1558,7 +1558,8 @@ a img {
 }
 @media all and (min-width: 68.75em) {
   .post-title {
-    font-size: 2.25em;
+    font-weight: bold;
+    font-size: 1.8em;
     /* 36px / 16px */
     line-height: 1.5;
     /* 54px */

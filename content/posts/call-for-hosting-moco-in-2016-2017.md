@@ -1,8 +1,10 @@
 ---
 title: Call for Hosting MOCO in 2016 & 2017
 date: 2015-10-26 02:12:48+00:00
+author: Jules Françoise
 type: post
 slug: call-for-hosting-moco-in-2016-2017
+hook: We are proud to announce the call for hosting MOCO’16 and MOCO’17...
 ---
 
 We are proud to announce the call for hosting MOCO’16 and MOCO’17!
@@ -11,12 +13,7 @@ If you wish to apply for hosting the next MOCO symposium, please submit your app
 
 [MOCO_CallforHosting](/documents/MOCO_CallforHosting.pdf)
 
-**Important Dates:**
+### Important Dates:
 
-
-
-
-  * Deadline for applications for hosting **MOCO’16: November 1st, 2015.**
-
-
-  * Deadline for applications for hosting **MOCO’17: January 10th, 2016.**
+* Deadline for applications for hosting **MOCO’16: November 1st, 2015.**
+* Deadline for applications for hosting **MOCO’17: January 10th, 2016.**

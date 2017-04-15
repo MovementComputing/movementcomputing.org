@@ -1,5 +1,5 @@
 <template>
-  <page :title="title" :content="content" />
+  <page :meta="meta" :content="content" />
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
       data = res.data;
     }
     return {
-      title: data.attributes.title,
+      meta: data.attributes,
       content: data.body,
     };
   },

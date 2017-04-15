@@ -22,7 +22,7 @@ function updatePostList() {
   const postList = [];
   for (let i = 0; i < allpages.length; i += 1) {
     const contents = fm(fs.readFileSync(`./content/posts/${allpages[i]}`, { encoding: 'utf8' }));
-    contents.body = marked(contents.body.slice(0, 256));
+    contents.body = contents.attributes.hook;
     postList.push(contents);
   }
   postList.sort((a, b) => {
@@ -37,7 +37,7 @@ function updatePostList() {
   fs.writeFileSync('./static/content/postlist.json', JSON.stringify(postList));
 }
 
-function updateItem(filename, genPostList = false) {
+function updateItem(filename, genPostList = true) {
   console.log('Update File: ', filename);
   const mData = fm(fs.readFileSync(filename, { encoding: 'utf8' }));
   mData.body = marked(mData.body);

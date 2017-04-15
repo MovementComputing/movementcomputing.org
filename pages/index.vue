@@ -14,14 +14,14 @@
                   <a :href="post.attributes.slug">{{post.attributes.title}}</a>
                 </h2>
                 <div class="post-meta">
-                  <p>Published {{post.attributes.date}} by Jules Françoise</p>
+                  <p>Published {{formatDate(post.attributes.date)}} by {{post.attributes.author}}</p>
                 </div>
               </div>
               <div class="post-content">
-                <div v-html="post.body + '...'"></div>
-                <p>
+                <p>{{post.body}}</p>
+                <center>
                   <a class="more-link" href="/call-for-hosting-moco-in-2018-2019/">Continue reading <span class="screen-reader-text">Call for Hosting MOCO in 2018 &amp; 2019</span></a>
-                </p>
+                </center>
               </div>
             </article>
           </div>
@@ -40,6 +40,14 @@ export default {
       posts,
     };
   },
+  methods: {
+    formatDate(dateStr) {
+      const date = dateStr.split('T')[0].split('-');
+      console.log(date);
+      const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(date[1] - 1)];
+      return `${month} ${date[2]}, ${date[0]}`;
+    },
+  },
 };
 </script>
 
@@ -55,5 +63,7 @@ export default {
   margin: 0 auto;
   padding-bottom: 20px;
 }
-
+.post-meta p {
+  margin-bottom: 0;
+}
 </style>
