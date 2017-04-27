@@ -3,7 +3,7 @@ title: About
 date: 2015-10-24 02:05:25+00:00
 type: page
 slug: about
-hook: General Information regarding the MOCO Community and Conference.
+hook: General Information regarding the MOCO Community and Conference
 ---
 
 MOCO is the international symposium on movement and computing. MOCO aims to gather academics and practitioners interested in the computational study, modelling, representation, segmentation, recognition, classification, or generation of movement information. MOCO is positioned within emerging interdisciplinary domains between art & science.
