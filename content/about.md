@@ -27,4 +27,4 @@ regards to the MOCO Symposium. Its members currently include :
 
 If you wish to apply for hosting a future MOCO symposium, please submit your application to moco-share@sfu.ca, according to the guidelines in the following document:
 
-[MOCO_CallForHosting](http://movementcomputing.iat.sfu.ca/wordpress/wp-content/uploads/2017/04/MOCO_CallForHosting.pdf)
+[MOCO_CallForHosting](/documents/MOCO_CallForHosting.pdf)
