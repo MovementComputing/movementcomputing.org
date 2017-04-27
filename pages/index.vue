@@ -20,7 +20,7 @@
               <div class="post-content">
                 <p>{{post.body}}</p>
                 <center>
-                  <nuxt-link class="more-link" :to="post.attributes.slug">Continue reading <span class="screen-reader-text">Call for Hosting MOCO in 2018 &amp; 2019</span></nuxt-link>
+                  <nuxt-link class="more-link" :to="post.attributes.slug">Continue reading <span class="screen-reader-text">{{post.attributes.title}}</span></nuxt-link>
                 </center>
               </div>
             </article>
@@ -46,6 +46,16 @@ export default {
       const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][Number(date[1] - 1)];
       return `${month} ${date[2]}, ${date[0]}`;
     },
+  },
+  head() {
+    return {
+      title: 'MOCO: Movement & Computing Community',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'MOCO is the International Conference on Movement and Computing. MOCO aims to gather academics and practitioners interested in the computational study, modelling, representation, segmentation, recognition, classification, or generation of movement information.',
+      }],
+    };
   },
 };
 </script>

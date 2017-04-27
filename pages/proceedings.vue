@@ -67,6 +67,16 @@ export default {
     };
   },
   components: { Page, BibEntry },
+  head() {
+    return {
+      title: 'Proceedings of Past MOCO Conferences',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Proceedings of Past MOCO Conferences',
+      }],
+    };
+  },
 };
 </script>
 

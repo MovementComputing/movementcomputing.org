@@ -22,5 +22,15 @@ export default {
     };
   },
   components: { Page },
+  head() {
+    return {
+      title: this.$data.meta.title,
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: this.$data.meta.hook,
+      }],
+    };
+  },
 };
 </script>

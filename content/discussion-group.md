@@ -3,6 +3,7 @@ title: Discussion Group
 date: 2015-10-25 22:18:41+00:00
 type: page
 slug: discussion-group
+hook: The MOCO community runs the mailing list and discussion group movementcomputing@googlegroups.com. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO symposium.
 ---
 
 The MOCO community runs the mailing list and discussion group _movementcomputing@googlegroups.com_. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO symposium. It is also a place for discussion and exchange for students, artists and researchers in the field of movement and computing.

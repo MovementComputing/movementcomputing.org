@@ -3,6 +3,7 @@ title: Past Conferences
 date: 2015-10-24 02:06:01+00:00
 type: page
 slug: past-conferences
+hook: Information on Past MOCO Conferences, since 2014.
 ---
 
 ### MOCO'16
