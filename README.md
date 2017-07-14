@@ -2,21 +2,23 @@
 
 > Website of the Movement and Computing Society
 
-## Build Setup
+## Editing Content
+
+The content of pages and posts is stored in the 'content' directory as a set of markdown files with a yaml front-matter, except for the 'proceedings' page (under 'pages').
+Static assets (documents and images) are stored in the 'static' directory.
+
+## Development instructions
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn # Or npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## Deployment instructions
+
+Just push to the master branch on Github to trigger a new deploy on [Netlify](https://www.netlify.com/).
