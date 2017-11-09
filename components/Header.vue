@@ -28,7 +28,7 @@
               <a>News</a>
             </nuxt-link>
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174">
-              <a href="http://moco17.movementcomputing.org/">MOCO’17</a>
+              <a href="http://moco18.movementcomputing.org/">MOCO’18</a>
             </li>
             <nuxt-link
               to="/past-conferences/"
