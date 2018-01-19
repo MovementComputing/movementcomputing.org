@@ -95,16 +95,13 @@ Papers should not be longer than 4 pages including the references. The first aut
 
 ### Submission Format and Procedure
 
-All submissions must be written in English. Submissions must be in pdf format and they have to be prepared using the ACM proceedings template:
-https://www.acm.org/publications/proceedings-template
+Accepted submissions are:
 
-For templates and examples please follow the links:
-- __Word:__ http://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acm_windows_word_template.zip
-- __Latex:__ http://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip
+- Long paper with oral presentation (8 pages maximum, including references)
+- Short paper with oral presentation (4 pages maximum, including references)
+- Extended abstract with poster presentation (6 pages maximum in the extended abstract format, including references)
 
-For practice Work submissions must include a proposal form describing technical requirements, please use the following template for the proposal form:
-Ms Excel: TechReqPracticeMoco2018.xlx
-OpenOffice Format: TechReqPracticeMoco2018.ods
+For submission instructions and templates, see: http://moco18.movementcomputing.org/instructions.html
 
 All contributions must be submitted online through EasyChair:
 https://easychair.org/conferences/?conf=moco2018.
