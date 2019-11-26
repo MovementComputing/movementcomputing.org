@@ -4,10 +4,10 @@ date: 2015-10-26 00:45:10+00:00
 author: Jules Françoise
 type: post
 slug: announcing-the-moco-discussion-group
-hook: We just created a discussion group and mailing list for the Movement & Computing community: _movementcomputing@googlegroups.com_. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO symposium...
+hook: We just created a discussion group and mailing list for the Movement & Computing community: _movementcomputing@googlegroups.com_. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO conference...
 ---
 
-We just created a discussion group and mailing list for the Movement & Computing community: _movementcomputing@googlegroups.com_. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO symposium. It is also a place for discussion and exchange for students, artists and researchers in the field of movement and computing.
+We just created a discussion group and mailing list for the Movement & Computing community: _movementcomputing@googlegroups.com_. Its purpose is to disseminate announcements related to the field of movement and computing, in particular about the MOCO conference. It is also a place for discussion and exchange for students, artists and researchers in the field of movement and computing.
 
 The mailing list is moderated, and encourages sharing announcements, call for papers, events, datasets, software, and topics relevant to the movement & computing community.
 

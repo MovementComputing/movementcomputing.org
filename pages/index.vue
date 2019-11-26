@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <div class="about">
-        <p>MOCO is the international symposium on movement and computing. MOCO aims to gather academics and practitioners interested in the computational study, modelling, representation, segmentation, recognition, classification, or generation of movement information. MOCO is positioned within emerging interdisciplinary domains between art & science.</p>
+        <p>MOCO is the International Conference on Movement and Computing. MOCO aims to gather academics and practitioners interested in the computational study, modelling, representation, segmentation, recognition, classification, or generation of movement information. MOCO is positioned within emerging interdisciplinary domains between art & science.</p>
       </div>
       <section id="main" class="main" role="main">
         <h1 class="screen-reader-text">Movement &amp; Computing Posts</h1>

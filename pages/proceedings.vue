@@ -11,12 +11,32 @@
               <div class="post-content">
                 <p>The proceedings of the MOCO symposium are published on the ACM Digital library under the International Conference Proceedings Series.</p>
                 <p>
+                  <a href="https://dl.acm.org/citation.cfm?id=3347122" target="_blank">MOCO'19 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/citation.cfm?id=3212721" target="_blank">MOCO'18 Online Proceedings</a><br>
                   <a href="http://dl.acm.org/citation.cfm?id=3077981" target="_blank">MOCO'17 Online Proceedings</a><br>
                   <a href="http://dl.acm.org/citation.cfm?id=2948910" target="_blank">MOCO'16 Online Proceedings</a><br>
                   <a href="http://dl.acm.org/citation.cfm?id=2790994" target="_blank">MOCO'15 Online Proceedings</a><br>
                   <a href="http://dl.acm.org/citation.cfm?id=2617995" target="_blank">MOCO'14 Online Proceedings</a>
                 </p>
                 <h1>MOCO Publications</h1>
+                <h3>MOCO'19</h3>
+                <div class="bibliography">
+                  <ul v-for="entry in bib.moco19">
+                    <li>
+                      <bib-entry :entry="entry" />
+                      <div v-if="false" v-html="entry.bibstring" class="bibstring"></div>
+                    </li>
+                  </ul>
+                </div>
+                <h3>MOCO'18</h3>
+                <div class="bibliography">
+                  <ul v-for="entry in bib.moco18">
+                    <li>
+                      <bib-entry :entry="entry" />
+                      <div v-if="false" v-html="entry.bibstring" class="bibstring"></div>
+                    </li>
+                  </ul>
+                </div>
                 <h3>MOCO'17</h3>
                 <div class="bibliography">
                   <ul v-for="entry in bib.moco17">
@@ -26,7 +46,6 @@
                     </li>
                   </ul>
                 </div>
-                <h3>MOCO'15</h3>
                 <h3>MOCO'16</h3>
                 <div class="bibliography">
                   <ul v-for="entry in bib.moco16">
@@ -67,6 +86,8 @@ import moco14 from '../static/documents/moco14.bib';
 import moco15 from '../static/documents/moco15.bib';
 import moco16 from '../static/documents/moco16.bib';
 import moco17 from '../static/documents/moco17.bib';
+import moco18 from '../static/documents/moco18.bib';
+import moco19 from '../static/documents/moco19.bib';
 
 export default {
   async asyncData() {
@@ -76,6 +97,8 @@ export default {
         moco15,
         moco16,
         moco17,
+        moco18,
+        moco19,
       },
     };
   },
