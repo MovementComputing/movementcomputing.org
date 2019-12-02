@@ -22,8 +22,9 @@ regards to the MOCO Symposium. Its members currently include :
 * [Sofia Dahl](http://www.sofiadahl.net/), Aalborg University Copenhagen,
 * [Cumhur Erkut](https://vbn.aau.dk/en/persons/130223), Aalborg University Copenhagen,
 * [Sarah Fdili Alaoui](http://saralaoui.com/),  LRI-Université Paris-Sud 11
+* [Jules Françoise](https://www.julesfrancoise.com/), LIMSI-CNRS
 * [Marco Gillies](https://www.gold.ac.uk/computing/staff/m-gillies/), Goldsmiths, University of London
-* [Sotiris Manitsaris](http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris), MINES ParisTech
+* [Sotiris Manitsaris](http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris), MINES ParisTech, PSL Université Paris.
 * [Thecla Schiphorst](http://www.sfu.ca/~tschipho/), Simon Fraser University
 * [Gualtiero Volpe](http://www.infomus.org/people/person.php?name=gvolpe), University of Genova
 
