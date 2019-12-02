@@ -17,16 +17,17 @@ Many fields, including Interaction Design, HCI, Education and Machine Learning h
 The Steering Committee is responsible for guiding future directions with
 regards to the MOCO Symposium. Its members currently include :
 
-* [Frédéric Bevilacqua](http://frederic-bevilacqua.net/), IRCAM
-* [Grisha Coleman](https://asu.pure.elsevier.com/en/persons/grisha-coleman), Arizona State University
-* [Sofia Dahl](http://www.sofiadahl.net/), Aalborg University Copenhagen,
-* [Cumhur Erkut](https://vbn.aau.dk/en/persons/130223), Aalborg University Copenhagen,
-* [Sarah Fdili Alaoui](http://saralaoui.com/),  LRI-Université Paris-Sud 11
-* [Jules Françoise](https://www.julesfrancoise.com/), LIMSI-CNRS
-* [Marco Gillies](https://www.gold.ac.uk/computing/staff/m-gillies/), Goldsmiths, University of London
-* [Sotiris Manitsaris](http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris), MINES ParisTech, PSL Université Paris.
-* [Thecla Schiphorst](http://www.sfu.ca/~tschipho/), Simon Fraser University
-* [Gualtiero Volpe](http://www.infomus.org/people/person.php?name=gvolpe), University of Genova
+* <a href="http://frederic-bevilacqua.net/" target="_blank">Frédéric Bevilacqua</a>, IRCAM
+* <a href="https://asu.pure.elsevier.com/en/persons/grisha-coleman" target="_blank">Grisha Coleman</a>, Arizona State University
+* <a href="http://www.sofiadahl.net/" target="_blank">Sofia Dahl</a>, Aalborg University Copenhagen,
+* <a href="https://vbn.aau.dk/en/persons/130223" target="_blank">Cumhur Erkut</a>, Aalborg University Copenhagen,
+* <a href="http://saralaoui.com/" target="_blank">Sarah Fdili Alaoui</a>,  LRI-Université Paris-Sud 11
+* <a href="https://www.julesfrancoise.com/" target="_blank">Jules Françoise</a>, LIMSI-CNRS
+* <a href="https://www.gold.ac.uk/computing/staff/m-gillies/" target="_blank">Marco Gillies</a>, Goldsmiths, University of London
+* <a href="http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris" target="_blank">Sotiris Manitsaris</a>, MINES ParisTech, PSL Université Paris.
+* <a href="http://www.sfu.ca/~tschipho/), Simon Fraser University" target="_blank">Thecla Schiphorst</a>
+* <a href="http://www.infomus.org/people/person.php?name=gvolpe" target="_blank">Gualtiero Volpe</a>, University of Genova
+
 
 ## Hosting MOCO
 
