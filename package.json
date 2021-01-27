@@ -10,7 +10,7 @@
     "express": "^4.15.2",
     "front-matter": "^2.1.2",
     "html-loader": "^0.4.5",
-    "marked": "^0.3.6",
+    "marked": "^0.3.18",
     "nuxt": "latest",
     "postcss-cssnext": "^2.10.0",
     "recursive-readdir": "^2.1.1",
