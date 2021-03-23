@@ -21,6 +21,8 @@ As an extension of MOCO, this special collection bridges the two creative commun
 
 This special section focuses on research in wearable technologies for transdisciplinary movement and computing research and practices.
 
+Please do not be deterred by potential publication fees. Instead, we highly encourage you to contact the guest editors with questions or concerns about fees or other matters.
+
 We welcome original contributions, along with review papers, as well as revisions of proceedings of the International Conference on Movement and Computing (MOCO). We require submissions based on previous MOCO proceedings to be extended or revised significantly (e.g., adding depth to describing methodology, or applicability to wearables, etc.), leading to at least 30% new scientific material or results. It is highly encouraged to re-frame your paper for wide transdisciplinary Wearable Technologies readership. Submissions will require confirmation of meeting this requirement in the cover letter.
 
 **We welcome contributions on the following topics:**
