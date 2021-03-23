@@ -60,6 +60,14 @@
             >
               <a href="http://moco21.movementcomputing.org/">SloMoCo</a>
             </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"
+            >
+              <a
+                href="https://www.cambridge.org/core/journals/wearable-technologies/information/call-for-papers/special-issue-wearables-for-transdisciplinary-movement-and-computing"
+                >Wearable Computing Special Issue</a
+              >
+            </li>
             <nuxt-link
               to="/past-conferences/"
               tag="li"
