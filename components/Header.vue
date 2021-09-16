@@ -51,21 +51,56 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+                menu-item-home
+              "
             >
               <a>News</a>
             </nuxt-link>
             <li
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+              "
+            >
+              <a href="http://moco22.movementcomputing.org/">MOCO'22</a>
+            </li>
+            <li
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+              "
             >
               <a href="http://moco21.movementcomputing.org/">SloMoCo</a>
             </li>
+            <nuxt-link
+              to="/call-for-hosting-moco-in-2024/"
+              tag="li"
+              exact
+              active-class="current-menu-item"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-20
+              "
+            >
+              <a>Hosting MOCO</a>
+            </nuxt-link>
             <li
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"
+              class="
+                menu-item
+                menu-item-type-custom
+                menu-item-object-custom
+              "
             >
               <a
                 href="https://www.cambridge.org/core/journals/wearable-technologies/information/call-for-papers/special-issue-wearables-for-transdisciplinary-movement-and-computing"
-                >Wearable Computing Special Issue</a
+                >Special Issue</a
               >
             </li>
             <nuxt-link
@@ -73,7 +108,11 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-20
+              "
             >
               <a>Past Conferences</a>
             </nuxt-link>
@@ -82,7 +121,11 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-21
+              "
             >
               <a>Proceedings</a>
             </nuxt-link>
@@ -91,7 +134,11 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-46
+              "
             >
               <a>Discussion Group</a>
             </nuxt-link>
@@ -100,7 +147,11 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-19
+              "
             >
               <a>About</a>
             </nuxt-link>
@@ -109,7 +160,11 @@
               tag="li"
               exact
               active-class="current-menu-item"
-              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"
+              class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-79
+              "
             >
               <a>Contact</a>
             </nuxt-link>

@@ -11,14 +11,24 @@
               <div class="post-content">
                 <p>The proceedings of the MOCO symposium are published on the ACM Digital library under the International Conference Proceedings Series.</p>
                 <p>
-                  <a href="https://dl.acm.org/citation.cfm?id=3347122" target="_blank">MOCO'19 Online Proceedings</a><br>
-                  <a href="https://dl.acm.org/citation.cfm?id=3212721" target="_blank">MOCO'18 Online Proceedings</a><br>
-                  <a href="http://dl.acm.org/citation.cfm?id=3077981" target="_blank">MOCO'17 Online Proceedings</a><br>
-                  <a href="http://dl.acm.org/citation.cfm?id=2948910" target="_blank">MOCO'16 Online Proceedings</a><br>
-                  <a href="http://dl.acm.org/citation.cfm?id=2790994" target="_blank">MOCO'15 Online Proceedings</a><br>
-                  <a href="http://dl.acm.org/citation.cfm?id=2617995" target="_blank">MOCO'14 Online Proceedings</a>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/3401956" target="_blank">MOCO'20 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/3347122" target="_blank">MOCO'19 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/3212721" target="_blank">MOCO'18 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/3077981" target="_blank">MOCO'17 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/2948910" target="_blank">MOCO'16 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/2790994" target="_blank">MOCO'15 Online Proceedings</a><br>
+                  <a href="https://dl.acm.org/doi/proceedings/10.1145/2617995" target="_blank">MOCO'14 Online Proceedings</a>
                 </p>
                 <h1>MOCO Publications</h1>
+                <h3>MOCO'20</h3>
+                <div class="bibliography">
+                  <ul v-for="entry in bib.moco20">
+                    <li>
+                      <bib-entry :entry="entry" />
+                      <div v-if="false" v-html="entry.bibstring" class="bibstring"></div>
+                    </li>
+                  </ul>
+                </div>
                 <h3>MOCO'19</h3>
                 <div class="bibliography">
                   <ul v-for="entry in bib.moco19">
@@ -88,6 +98,7 @@ import moco16 from '../static/documents/moco16.bib';
 import moco17 from '../static/documents/moco17.bib';
 import moco18 from '../static/documents/moco18.bib';
 import moco19 from '../static/documents/moco19.bib';
+import moco20 from '../static/documents/moco20.bib';
 
 export default {
   async asyncData() {
@@ -99,6 +110,7 @@ export default {
         moco17,
         moco18,
         moco19,
+        moco20,
       },
     };
   },

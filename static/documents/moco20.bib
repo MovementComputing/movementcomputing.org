@@ -1,0 +1,1168 @@
+@inproceedings{10.1145/3401956.3404185,
+author = {Ladwig, Philipp and Evers, Kester and Jansen, Eric J. and Fischer, Ben and Nowottnik, David and Geiger, Christian},
+title = {MotionHub: Middleware for Unification of Multiple Body Tracking Systems},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404185},
+doi = {10.1145/3401956.3404185},
+abstract = {There is a substantial number of body tracking systems (BTS), which cover a wide variety
+of different technology, quality and price range for character animation, dancing
+or gaming. To the disadvantage of developers and artists, almost every BTS streams
+out different protocols and tracking data. Not only do they vary in terms of scale
+and offset, but also their skeletal data differs in rotational offsets between joints
+and in the overall number of bones. Due to this circumstance, BTSs are not effortlessly
+interchangeable. Usually, software that makes use of a BTS is rigidly bound to it,
+and a change to another system can be a complex procedure. In this paper, we present
+our middleware solution MotionHub, which can receive and process data of different
+BTS technologies. It converts the spatial as well as the skeletal tracking data into
+a standardized format in real time and streams it to a client (e.g. a game engine).
+That way, MotionHub ensures that a client always receives the same skeletal-data structure,
+irrespective of the used BTS. As a simple interface enabling the user to easily change,
+set up, calibrate, operate and benchmark different tracking systems, the software
+targets artists and technicians. MotionHub is open source, and other developers are
+welcome to contribute to this project.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {1},
+numpages = {8},
+keywords = {Body tracking, motion capture, OptiTrack, skeletal data, middleware, Azure Kinect},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404186,
+author = {Kalampratsidou, Vilelmini and Torres, Elizabeth B.},
+title = {Sonification of Heart Rate Variability Can Entrain Bodies in Motion},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404186},
+doi = {10.1145/3401956.3404186},
+abstract = {In this work, we introduce a co-adaptive closed-loop interface driven by audio augmented
+with a parameterization of the dancer's heart-rate in near real-time. In our set-up,
+two salsa dancers perform their routine dance (previously choreographed and well-trained)
+and a spontaneously improvised piece lead by the male dancer. They firstly dance their
+pieces while listening to the original version of the song (baseline condition). Then,
+we ask them to dance while listening to the music, as altered by the heart rate extracted
+from the female dancer in near real-time. Salsa dancing is always led by the male.
+As such, their challenge is to adapt, their movements, as a dyad, to the real-time
+change induced by the female's heart activity.Our work offers a new co-adaptive set
+up for dancers, new data types and analytical methods to study two forms of dance:
+well-rehearsed choreography and improvisation. We show that the small variations in
+heart activity, despite its robustness for autonomic function, can distinguish well
+between these two modes of dance.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {2},
+numpages = {8},
+keywords = {Cross-correlation, Autocorrelation, Salsa, Heart sonification, Musical feature extraction, Heart rate, Bodily signal entrainment, Movement, Audio augmentation, Stochastic signatures, Dancers, Partnering},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404187,
+author = {Bigand, F\'{e}lix and Prigent, Elise and Braffort, Annelies},
+title = {Person Identification Based On Sign Language Motion: Insights From Human Perception And Computational Modeling},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404187},
+doi = {10.1145/3401956.3404187},
+abstract = {Previous research has shown that human perceivers can identify individuals from biological
+movements, such as walking or dancing. It remains to be investigated whether sign
+language motion, which obeys to other constraints than pure biomechanical ones, also
+allows for person identification. The present study is the first to investigate whether
+deaf perceivers recognize signers based on motion capture (mocap) data only. Point-light
+displays of 4 signers producing French Sign Language utterances were presented to
+a group of deaf participants. Results revealed that participants managed to identify
+familiar signers above chance level. Computational analysis of the mocap data provided
+further evidence that morphological cues were unlikely to be sufficient for signer
+identification. A machine learning approach aiming to evaluate the motion features
+that can account for human performance is currently being developed. First results
+of the model reveal high accuracy for signer identification based on the same stimulus
+material, even after having normalized for size and shape. The present behavioral
+and computational findings suggest that mocap data contain sufficient information
+to identify signers, and this beyond simple cues related to morphology.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {3},
+numpages = {7},
+keywords = {Sign Language, Perception, Motion Capture, Motion Analysis, Machine Learning},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404188,
+author = {Kaushik, Roshni and Mishra, Anant Kumar and LaViers, Amy},
+title = {Feasible Stylized Motion: Robotic Manipulator Imitation of a Human Demonstration with Collision Avoidance and Style Parameters in Increasingly Cluttered Environments},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404188},
+doi = {10.1145/3401956.3404188},
+abstract = {Socially intelligent robots are a priority for large manufacturing companies that
+want to deploy collaborative robots in many countries around the world. This paper
+presents an approach to robot motion generation in which a human demonstration is
+imitated, collisions are avoided, and a "style" is applied to subtly modify the feasible
+motion. The framework integrates three subsystems to create a holistic method that
+navigates the trade-off between form and function. The first subsystem uses depth
+camera information to track a human skeleton and create a low dimensional motion model.
+The second subsystem applies these angles to a simulated UR3 robot, modifying them
+to produce a feasible trajectory. The generated trajectory avoids physically infeasible
+configurations and collisions with the environment, while remaining as close to the
+original demonstration as possible. The final subsystem applies four style parameters,
+based on prior work using Laban Effort Factors, to endow the trajectory with a specific
+"style". This approach creates adaptive robot behavior in which one human demonstration
+can result in many subtly different robot motions. The effectiveness of the hybrid
+approach, which considers functional as well as expressive goals, is demonstrated
+on three environments of increasing clutter. As expected, in more cluttered environments,
+the desired imitation is not as pronounced as in unconstrained environments. Potential
+applications of this framework include programming robot motion on a factory floor
+with greater efficiency as well as creating feasible motion on multiple robots with
+a single demonstration. This quantitative work highlights the Function/Expression
+duality named in the Laban/Bartenieff Movement System, illuminating how the arts are
+critical for "practical" spaces like the factory.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {4},
+numpages = {8},
+keywords = {optimization, Laban Movement Analysis, social robots, coordination, robotics, collaborative robots, style, manufacturing, imitation},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404194,
+author = {J\'{e}go, Jean-Fran\c{c}ois and Meneghini, Margherita Bergamo},
+title = {Let's Resonate: How to Elicit Improvisation and Letting Go in Interactive Digital Art},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404194},
+doi = {10.1145/3401956.3404194},
+abstract = {Participatory art allows for the spectator to be a participant or a viewer able to
+engage actively with interactive art. Real-time technologies offer new ways to create
+participative artworks. We hereby investigate how to engage participation through
+movement in interactive digital art, and what this engagement can awaken, focusing
+on the ways to elicit improvisation and letting go. We analyze two Virtual Reality
+installations, "InterACTE" and "Eve, dance is an unplaceable place," involving body
+movement, dance, creativity and the presence of an observing audience. We evaluate
+the premises, the setup, and the feedback of the spectators in the two installations.
+We propose a model following three different perspectives of resonance: 1. Inter Resonance
+between Spectator and Artwork, which involves curiosity, imitation, playfulness and
+improvisation. 2. Inner Resonance of Spectator him/herself, where embodiment and creativity
+contribute to the sense of being present and letting go. 3. Collective Resonance between
+Spectator/Artwork and Audience, which is stimulated by curiosity, and triggers motor
+contagion, engagement and gathering. The two analyzed examples seek to awaken open-minded
+communicative possibilities through the use of interactive digital artworks. Moreover,
+the need to recognize and develop the idea of resonance becomes increasingly important
+in this time of urgency to communicate, understand and support collectivity.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {5},
+numpages = {8},
+keywords = {improvisation, spectator, virtual reality, Embodied cognition, interactive art, philosophical perspectives, movement, resonance, dance and technology},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404225,
+author = {J\"{u}rgens, Stephan and Correia, Nuno N. and Masu, Raul},
+title = {Designing Glitch Procedures and Visualisation Workflows for Markerless Live Motion Capture of Contemporary Dance},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404225},
+doi = {10.1145/3401956.3404225},
+abstract = {This paper presents a case study in the exploration and creative usage of errors and
+glitches in the real-time markerless motion capture of contemporary dance. We developed
+a typology of MoCap failures comprised of seven categories, allowing the user to situate
+each distinct error in the respective stage of the motion capture pipeline. This way,
+glitch procedures for the creative use of 'bad' MoCap data were designed, resulting
+in uncommon avatar visualisations. We propose an additional 're-visualisation' module
+in our motion capture pipeline and avatar staging approach, which enables choreographers
+and digital artists to rapidly prototype their ideas in a mixed reality performance
+environment. Finally, we discuss how our extended MoCap pipeline and avatar staging
+set-up can support artists and researchers who aim at a flexible and adaptive workflow
+in real-time motion visualization.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {6},
+numpages = {8},
+keywords = {glitch, Motion capture, live visuals, choreography, contemporary dance, digital error, visualisation, markerless, mixed reality set-up},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404226,
+author = {Giomi, Andrea},
+title = {Somatic Sonification in Dance Performances. From the Artistic to the Perceptual and Back},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404226},
+doi = {10.1145/3401956.3404226},
+abstract = {Since the end of the 1980s, interactive musical systems have played an increasingly
+relevant role in dance performances. More recently, the use of interactive auditory
+feedback for sensorimotor learning such as movement sonification has gained currency
+and scientific attention in a variety of fields ranging from rehabilitation to sport
+training, neuroscience and product design. This paper investigates the convergence
+between interactive music/dance systems and movement sonification in the field of
+dance. The main question we address is whether the emergence of the notion of sonification
+can foster new perspectives for practice-based artistic research. In this context,
+we highlight a fundamental shift of perspective from musical interactivity per se
+to the somatic knowledge provided by the real time sonification of movement, which
+can be considered as a major somatic-sonification turn.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {7},
+numpages = {8},
+keywords = {somatic sonification, movement sonification, dance/music interactive systems, dance technology},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404227,
+author = {Garcia, Maxime and Ronfard, R\'{e}mi},
+title = {Recognition of Laban Effort Qualities from Hand Motion},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404227},
+doi = {10.1145/3401956.3404227},
+abstract = {In this paper, we conduct a study for recognizing motion qualities in hand gestures
+using virtual reality trackers attached to the hand. From this 6D signal, we extract
+Euclidean, equi-affine and moving frame features and compare their effectiveness in
+the task of recognizing Laban Effort qualities. Our experimental results reveal that
+equi-affine features are highly discriminant features for this task. We also compare
+two classification methods on this task. In the first method, we trained separate
+HMM models for the 6 Laban Effort qualities (light, strong, sudden, sustained, direct,
+indirect). In the second method, we trained separate HMM models for the 8 Laban motion
+verbs (dab, glide, float, flick, thrust, press, wring, slash) and combined them to
+recognize individual qualities. In our experiments, the second method gives improved
+results. Together, those findings suggest that low-dimensional signals from VR trackers
+can be used to predict motion qualities with reasonable precision.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {8},
+numpages = {8},
+keywords = {Laban Movement Analysis, Motion Qualities Recognition},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404228,
+author = {Liu, Lucas and Long, Duri and Magerko, Brian},
+title = {MoViz: A Visualization Tool for Comparing Motion Capture Data Clustering Algorithms},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404228},
+doi = {10.1145/3401956.3404228},
+abstract = {Motion capture data is useful for machine learning applications in a variety of domains
+(e.g. movement improvisation, physical therapy, character animation in games), but
+many of these domains require large, diverse datasets with data that is difficult
+to label. This has precipitated the use of unsupervised learning algorithms for analyzing
+motion capture datasets. However, there is a distinct lack of tools that aid in the
+qualitative evaluation of these unsupervised algorithms. In this paper, we present
+the design of MoViz, a novel visualization tool that enables comparative qualitative
+evaluation of otherwise "black-box" algorithms for pre-processing and clustering large
+and diverse motion capture datasets. We applied MoViz to the evaluation of three different
+gesture clustering pipelines used in the LuminAI improvisational dance system. This
+evaluation revealed features of the pipelines that may not otherwise have been apparent,
+suggesting directions for iterative design improvements. This use case demonstrates
+the potential for this tool to be used by researchers and designers in the field of
+movement and computing seeking to better understand and evaluate the algorithms they
+are using to make sense of otherwise intractably large and complex datasets.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {9},
+numpages = {8},
+keywords = {unsupervised learning, movement improvisation, visualization, explainable AI, motion capture data, gesture clustering},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404229,
+author = {Cuan, Catie and Hoffswell, Joseph and LaViers, Amy},
+title = {Stories About the Future: Initial Results Exploring How Co-Movement with Robots Affects Perceptions About Robot Capability},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404229},
+doi = {10.1145/3401956.3404229},
+abstract = {Anxiety about automation of large classes of jobs creates an area of research around
+how to evolve the workforce in parallel to advances in robotic technology. Gaining
+meaningful experience with robots, such as studying them in school, is not an option
+for every American, leaving media and stories to fill the void. This paper first presents
+analysis of popular narratives about robots, finding largely negative and violent
+depictions in popular movies. Then, the paper reports on an initial experiment with
+human participants on existing attitudes about robots and how those may change with
+meaningful, non-narrative exposure to these machines. A pilot study with 12 participants
+was designed and deployed in a targeted community. Initial findings, along with directions
+for future work, are discussed. The accessible, exhibit-like design of this work,
+may be a scalable framework that can make it possible for more people to gain real-life
+experiences with robots.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {10},
+numpages = {8},
+keywords = {Interactive art, Kinesthetic perception, Embodied learning, FoW},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404230,
+author = {Thiede, Jacob},
+title = {Tap Dance as Medium for Composition: Notation and Technology},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404230},
+doi = {10.1145/3401956.3404230},
+abstract = {While there are sources for preserving and documenting movement, there are not many
+clear options for memorization and disseminating notation for tap dance. Two sources
+are more widely known: Labanotation and Kahnotation. The former attempts to use a
+diagram of the human body to express how it should move over time. The latter uses
+images sequentially to convey movement. Labanotation is typically used for more classical
+and modern genres like ballet and contemporary dance. Kahnotation was devised specifically
+for tap dance. While both are no more complex than music notation, they are vastly
+different and do not crossover into how a musician understands reading music. This
+paper aims to comprehensively analyze both notation systems by comparing and contrasting
+with modern music notation. Additionally, I propose a new form of notation for both
+tap dancers and musicians which is inspired by elements of rudiments for percussion.
+Ultimately, I apply three suggested methods for composing for tap dance in addition
+to creating a unique Max 4 Live device which allows tap dancers to actively interact
+with the computer (Ableton) and change tempo with effortless precision.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {11},
+numpages = {9},
+keywords = {Labanotation, Kahnotation, Tap Dance Notation, Rudiments},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404231,
+author = {Frost, Devon and Steele, Shannon and Bang, Lucas},
+title = {Virtually Constrained Dancing: Encoding Language in Movement and Sound},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404231},
+doi = {10.1145/3401956.3404231},
+abstract = {This paper presents the development of the TED (Tap Encoding Decoding) program with
+results and reflections on its usage. TED is a program to be used in partnership with
+a tap dancer for decoding tap dancing audio. To perform with TED, a tap dancer must
+execute their dance with steps that encode Morse code. This paper will elaborate on
+the processes by which TED was developed, including methodologies such as audio signal
+peak detection for tap dancing and audio decoding analysis. We also explore the relationship
+developed between the dancer and TED during experimentation and live performance.
+We draw upon notions of extended and embodied cognition to explain observations regarding
+the dancer's feedback driven adaptations to TED's outputs during their performance.
+The programmatic constraints introduced during partnership with TED result in novel
+choreographic challenges and impose atypical structure in improvisation, leading to
+unusual performance characteristics.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {12},
+numpages = {4},
+keywords = {Audio computing, Theatrical Performance, Interdisciplinary Collaboration, Tap Dancing, Dance},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404232,
+author = {Bokadia, Harshit and Cole, Jonathan and Torres, Elizabeth},
+title = {Neural Connectivity Evolution during Adaptive Learning with and without Proprioception},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404232},
+doi = {10.1145/3401956.3404232},
+abstract = {Understanding brain connectivity patterns that may spontaneously emerge in response
+to biofeedback training remains of great interest to neuroscientists. Along those
+lines, Brain Computer Interfaces (BCI) mediated by EEG signals that dynamically evolve
+as the user attempts to control a cursor on the screen, has helped identify brain
+areas recruited during the learning process. There is an adaptive process that takes
+place between the computer algorithm and the solution that the brain arrives at to
+mentally control the instructed cursor direction through intentional thoughts. Using
+new personalized techniques, we here address how different participants learn during
+this co-adaptive process, in which bodily motions are curtailed in favor of mental
+motion. First, the person uses mental imagery of directional movements to attempt
+the cursor control, but as the computer algorithm and the brain work together to gain
+accuracy, this mental imagery reportedly reaches a different level of abstraction
+to the point when the participants are mentally controlling the external computer
+cursor, yet no longer imagining the movement direction. We compared the evolution
+of a participant without proprioception owing to neuronopathy, to that of participants
+with intact afferent nerves and found fundamentally different patterns of activation.
+In the former, the connectivity patterns were far higher and distributed across the
+entire brain during the initial stages of learning, along with the changes across
+the learning stages being more pronounced in contrast to the other participants. We
+infer from this result that in the absence of kinesthetic reafference, heavy reliance
+on other senses like vision and hearing, may endow the brain with higher capacity
+to handle the excess cognitive load.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {13},
+numpages = {4},
+keywords = {earth mover's distance, Brain Computer Interface, brain connectivity, weighted directed graphs, EEG},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404233,
+author = {Donato, Balandino Di and Dewey, Christopher and Michailidis, Tychonas},
+title = {Human-Sound Interaction: Towards a Human-Centred Sonic Interaction Design Approach},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404233},
+doi = {10.1145/3401956.3404233},
+abstract = {In this paper, we explore human-centered interaction design aspects that determine
+the realisation and appreciation of musical works (installations, composition and
+performance), interfaces for sound design and musical expression, augmented instruments,
+sonic aspects of virtual environments and interactive audiovisual performances. In
+this first work, with the human at the centre of the design, we started sketching
+modes of interaction with sound that could result direct, engaging, natural and embodied
+in a collaborative, interactive, inclusive and diverse music environment. We define
+this as Human-Sound Interaction (HSI). To facilitate the exploration of HSIs, we prototyped
+SoundSculpt, a cross-modal audio, holographic projection and mid-air haptic feedback
+system. During an informal half-day workshop, we observed that HSIs through SoundSculpt
+have the potential to foster new ways of interaction with sound and to make them accessible
+to diverse musicians, sound artists and audience.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {14},
+numpages = {4},
+keywords = {Human-Centere Interaction Design, mid-air haptic feedback, sound affordances, holographic projection, Human-Sound Interaction},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404234,
+author = {Gagner\'{e}, Georges and Mays, Tom and Ternova, Anastasiia},
+title = {How a Hyper-Actor Directs Avatars in Virtual Shadow Theater},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404234},
+doi = {10.1145/3401956.3404234},
+abstract = {This paper proposes a method and a set of tools for staging avatar movements that
+are controlled by a performer during a mixed reality theatrical performance. It refers
+to the field of Computer Theater as defined by Pinhanez and follows the model of the
+hyper-actor to control musical and visual expressive instruments in the performance
+The Shadow. The focus is on the construction of the visual instrument designed to
+direct the simultaneous stage movements of five avatars in a virtual shadow theater.
+The hypothesis of using only two groups of stage actions, salient and idle, is implemented
+with two methods in the performance The Shadow. We explain the theory and the programming
+of these methods in the Epic Game videogame engine Unreal Engine 4. The validation
+of the hypothesis is discussed through the artistic results of the performances. The
+tools for staging animations during theatrical rehearsals and performances contributes
+to advancing the expressivity of virtual movements in mixed reality performing arts.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {15},
+numpages = {9},
+keywords = {mixed reality, computer theater, hyper-instrument, presence effect, motion capture, hyper-actor, avatar direction, performing arts},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404235,
+author = {Thorn, Seth Dominicus and Willcox, Halley and Wei, Sha Xin},
+title = {Processual and Experiential Design in Wearable Music Workshopping},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404235},
+doi = {10.1145/3401956.3404235},
+abstract = {This paper describes a series of workshops in which dancers participated in the design
+of collectively-playable, computational, wearable musical instruments, exploring ensemble
+experience in improvised events. We describe the progressive phases of layering and
+computationally creative learning that occurred during our workshops with epistemically
+and culturally diverse groups of participants. Our approach is motivated by processual
+and experiential design, as well as a relational approach using collective sonic mappings.
+The media instruments we constructed during our workshops are based on trial-and-error
+development of signal processing symmetrizing action and perception, designed without
+pre-schematizing, abstract models of user intention or semantics. Hence we outline
+a pre-reflective, pre-individual, sub-semantic approach to relational media synthesis.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {16},
+numpages = {8},
+keywords = {movement and computing, interactive dance, Dance and technology, process philosophy, music and movement, embodied interaction, sensory augmentation of movement, radical empiricism, gesture and sound, experiential design},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404236,
+author = {Corness, Greg and Carlson, Kristin},
+title = {Physical Time: A Model for Generating Rhythmic Gestures Based on Time Metaphors},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404236},
+doi = {10.1145/3401956.3404236},
+abstract = {Possibilities for cross disciplinary interactive performance continue to grow as new
+tools are developed and adapted. Yet, the qualitative aspects of cross disciplinary
+interaction has not advanced at the same rate. We suggest that new models for understanding
+gesture in different media will support the development of nuanced interaction for
+interactive performance. We have explored this premise by considering models for generating
+musical rhythmic gestures that enable implicit interaction between the gestures of
+a dancer and the generated music. We create a model that focuses on understanding
+rhythms as dynamic gestures that flow in, around, or out of goal points. Goal points
+can be layered and quantized to a meter, providing the rhythmic structure expected
+in music, while the figurations enable the generated rhythms to flow with the performer
+responding to the more qualitative aspects of performer. We have made a simple implementation
+of this model to test the conceptual and technical viability. We discuss both the
+model and our implementations suggesting that the model, even with a simple implementation,
+affords a unique ability to reflect the dynamic flow of gestures in movement paradigms
+while still providing a sense of structured time indicative of a musical paradigm.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {17},
+numpages = {6},
+keywords = {Dance and Music Interaction, Generating Rhythmic Gestures, Interactive Performance},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404237,
+author = {Van Nort, Doug and Jarvis, Ian and Maraj, Kieran},
+title = {Performing Gesture and Time via an Emergent Database},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404237},
+doi = {10.1145/3401956.3404237},
+abstract = {This paper presents distinct modes of engaging with and structuring time, temporality
+and gesture as explicit units of semantic information. The work presents the newest
+iteration of a long-standing approach to instrumental system design and performance
+in which input gesture, sonic gesture and intermediate layers of information are stored
+as richly-structured "temporal semantic units" in a per-formable database, which can
+be queried via embodied action in order to be used in improvised performance contexts.
+This includes the mapping of temporal envelopes and the on-line training of machine
+learning algorithms. The history and lineage of ideas leading up to this current work
+are presented, as well as the novel system architecture and distinct modes of interaction
+that are composed from the perspective of the composer/performer engaged in the practice
+of electroacoustic improvisation.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {18},
+numpages = {4},
+keywords = {temporality, databases, electroacoustic improvisation, gesture},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404238,
+author = {Bergner, Yoav and Damast, Deborah and Romita, Allegra and Smock, Anne Marie Robson},
+title = {Movement Computing Education for Middle Grades},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404238},
+doi = {10.1145/3401956.3404238},
+abstract = {This paper takes a theoretical approach to movement computing education for young
+learners, with a focus on middle grades (grades 6-8, ages 11-14). This age group is
+targeted as a lower bound because, while some elements of computational thinking may
+be available to still younger learners, there are abstractions involved in movement
+computation that pre-require a certain amount of formal operation, in the Piagetian
+sense. We outline a parallel foundation of key ideas in movement (specifically dance)
+and key ideas in computing (specifically data representations) at this age-appropriate
+level. We describe how these foundations might be laid down together early on so that
+they can later be integrated via the introduction of sensing and feedback technology.
+Concepts in movement and choreography are studied using words and bodies, as in traditional
+dance education, and later using computer simulations and motion capture. Data concepts
+are introduced first by appeal to general questions and later by specification to
+the movement of individual and collective joints and bodies.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {19},
+numpages = {5},
+keywords = {data science, dance analytics, motion capture, education},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404239,
+author = {Candau, Yves and Schiphorst, Thecla},
+title = {Pragmatic Circulations: John Dewey's Philosophy, Movement Practices and Embodied Cognition},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404239},
+doi = {10.1145/3401956.3404239},
+abstract = {The past decade has seen a burgeoning of projects and publications to articulate interdisciplinary
+perspectives into dance and embodied cognition. Many of these works include experiential
+perspectives, for which they have generally turned to phenomenology. Pragmatism on
+the other hand, another philosophy of experience, has been mostly absent from these
+discussions. We provide a close reading of some of John Dewey's ideas, retrospectively
+informed by notions such as conceptual metaphors and image schemata, to consider a
+pragmatic framework for movement and embodied cognition, and some implications for
+embodied interaction.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {20},
+numpages = {8},
+keywords = {Pragmatism, Postmodern dance, William James, John Dewey, Embodied cognition, 4E cognition, Somatic practices},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404240,
+author = {Cochrane, Karen Anne and Loke, Lian and Campbell, Andrew and Leete, Matthew and Ahmadpour, Naseem},
+title = {An Interactive Soundscape to Assist Group Walking Mindfulness Meditation},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404240},
+doi = {10.1145/3401956.3404240},
+abstract = {Developing interactive soundscapes for walking meditation has the potential to bring
+new opportunities of research in human-computer interaction and design. In this paper,
+we present our case study Sound of Mind, an interactive ambient soundscape that is
+transformed by one of the participant's brainwave data in a group walking meditation
+practice.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {21},
+numpages = {3},
+keywords = {Feedback, Design, Mental Health, Sound, Well-being},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404241,
+author = {Carlson, Kristin and Corness, Greg},
+title = {Perceiving the Light: Exploring Embodied Cues in Interactive Agents for Dance},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404241},
+doi = {10.1145/3401956.3404241},
+abstract = {The "Light the Way" project focuses on how intention can be transmitted through a
+media agent in a dance performance. We are interested in both how the agent may transmit
+its intention, how it may perceive the intention of humans, as well as how the human
+perceived and then expresses their intention to fulfill their gesture; particularly
+in relation to space. We describe a trajectory of interactive performance works that
+explore embodied cues as intention in space through four steps: 1) a fully autonomous
+and interactive sonic agent with its own behaviours, 2) a human-operated, non-autonomous
+or interactive visual agent in a controlled workshop, 3) a dancer-operated, non-autonomous
+or interactive visual agent in a live performance, and 4) an autonomous, non-interactive
+visual agent with its own behaviours in a controlled workshop. This work explores
+the balance between different forms of embodied connections that are developed between
+human and agent performers, and the ways that this work could be developed in the
+future to support more intuitive interactions.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {22},
+numpages = {4},
+keywords = {Interactive Performance, Embodiment, Gesture Recognition},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404242,
+author = {Bigoni, Francesco and Erkut, Cumhur},
+title = {DogDog: Soma-Based Interface Design for an Improvising Musician},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404242},
+doi = {10.1145/3401956.3404242},
+abstract = {Improvisation is embodied thought and expression. This paper outlines strategies and
+tactics to design expressive musical interfaces for improvisers. Some of these strategies
+are explored through a case study: a non-tactile hand-arm movement interface controlling
+a granular synthesizer (DogDog), based on high-level movement descriptors. The research
+through design and performance experience indicates that movement quality descriptors
+are inherently scalable from hand-arm movements to full body interaction, and that
+a textural approach to motion tracking fits well the morphing sonic masses generated
+through granular sound synthesis.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {23},
+numpages = {4},
+keywords = {Movement Descriptors, Mapping, Granular Synthesis, Embodied Interaction, Sound},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404243,
+author = {Sanford, Sean and Liu, Mingxiao and Selvaggi, Thomas and Nataraj, Raviraj},
+title = {The Effects of Visual Feedback Complexity on Training the Two-Legged Squat Exercise},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404243},
+doi = {10.1145/3401956.3404243},
+abstract = {We investigated the effects of visual feedback (VF) complexity and visual mode of
+body-discernibility for training the two-legged squat exercise. Our objective was
+to identify features for optimizing VF-based movement rehabilitation paradigms. We
+evaluated four unique VF cases with unique combination of VF complexity type (simple,
+complex) and visual mode of display (abstract, representative). We evaluated the effects
+of VF during training (real-time VF) and post-assessment (no-VF, immediately following
+training) for increasing motion and muscle activity consistency. Eighteen able-bodied
+subjects completed training and post-assessment with all four VF cases in a single
+training session. We demonstrated that Complex-representative VF has potential to
+elicit more consistent motion and muscle activity patterns during rehabilitative training.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {24},
+numpages = {4},
+keywords = {movement rehabilitation, electromyography, Visual feedback, motion capture analysis},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404244,
+author = {Tillman, Mitchell and Dahl, Luke and Knowlton, Christopher B. and Zaferiou, Antonia},
+title = {Real-Time Optical Motion Capture Balance Sonification System},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404244},
+doi = {10.1145/3401956.3404244},
+abstract = {In this study, we explored the effects of a motion capture-based real-time sonified
+biofeedback system on balance. We present the initial efforts towards developing a
+task-independent optical motion capture based real-time balance sonification system.
+Five healthy young adults (two female; 24 ± 2.65 years) stood on one foot before and
+during listening to sonified biofeedback that expressed information in real-time about
+the state of their balance. In two of five participants, interacting with our sonified
+biofeedback system resulted in increased "Margin of Stability", a metric indicative
+of how well the body center of mass is supported by a person's stance. This result
+indicates our system's initial promise towards training balance strategies. Qualitatively,
+the participants who increased the Margin of Stability during sonification reported
+enjoying the experience more and were more aware of changes in their behavior, compared
+to those who did not increase their Margin of Stability. We also learned that our
+sonification system has design elements that are incompatible with the stationary
+tasks in the present study, which will inform our next iteration of sonification design.
+Future work will examine sonifying balance in dynamic balance tasks, with the goal
+of aiding clinical balance training.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {25},
+numpages = {4},
+keywords = {Biomechanics, Balance, Sonification},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404245,
+author = {Liu, Mingxiao and Wilder, Samuel and Sanford, Sean and Nataraj, Raviraj},
+title = {Inducing Cognition of Secure Grasp and Agency to Accelerate Motor Rehabilitation from an Instrumented Glove},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404245},
+doi = {10.1145/3401956.3404245},
+abstract = {Improving grasp performance for activities of daily living is an essential objective
+following neuromuscular trauma such as spinal cord injury, traumatic brain injury,
+stroke or amputations. Traditional rehabilitation methods involve intensive or repetitive
+physical training to relearn motor skills. Few of them consider or leverage cognitive
+factors to better motivate and engage individuals during training. Novel cognitive-based
+approaches could better motivate individuals to engage in training paradigms and facilitate
+rehabilitation procedure. Sense of agency (agency) is the neural perception of the
+true authorship of a neuromuscular action and its related consequence. Possessing
+greater agency as a basis for improved functional performance appears as an intuitive
+concept since the higher agency one has, the better movement control one perceives.
+In this project, we developed an instrumented glove that aimed to predict secure grasping
+and to improve grasp performance with onboard sensory feedback by inducing agency.
+Participants received visual and audio feedback during a training session across three
+distinct conditions: 'Decay feedback', 'Instant feedback' and 'No feedback'. Overall,
+grasp performance including completion time and pathlength significantly improved
+(p &lt; 0.05) after the training with 'Decay feedback', comparing to training without
+feedback (i.e. 'No feedback'). The results of this study may foster user-device integration
+at a cognitive level and facilitate greater clinical retention for rehabilitation
+following neurotrauma.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {26},
+numpages = {4},
+keywords = {Sense of agency, motion capture analysis, user-device integration, movement rehabilitation, device instrumentation},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404246,
+author = {Simeoli, Roberta and Arnucci, Miriana and Rega, Angelo and Marocco, Davide},
+title = {Movement Detection Software to Enhance Autism Assessment Processes},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404246},
+doi = {10.1145/3401956.3404246},
+abstract = {Autism is a neurodevelopmental disorder evident from infancy. It has been, typically,
+assessed and diagnosed through observational behavioral analysis. However, new evidence
+showed that motor abnormalities might underpin the disorder and provide a computational
+marker to enhance assessment and diagnostic processes. In this study, we used tablets
+with touch-sensitive screens to record movement kinematics in children with autism
+compared to typically developing children. The analysis of the trajectories indicated
+that a measure of straightness could identify the difference between the groups.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {27},
+numpages = {4},
+keywords = {Autism, Movement detection, Assessment technologies},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404247,
+author = {Ribeiro, Louise Bog\'{e}a and Zaferiou, Antonia and da Silva Filho, Manoel},
+title = {Evaluation of Movement and Motor Skills for Early Diagnosis and Treatment of Autism Spectrum Disorder},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404247},
+doi = {10.1145/3401956.3404247},
+abstract = {Early diagnosis for the young children with Autism Spectrum Disorder (ASD) is essential,
+ensuring that the interventions necessary to develop children's skills are adopted
+early when brain plasticity is much more accentuated, and therapy is more effective.
+Past research has established that poor motor skills are related to broader social
+behavioral challenges. To effectively diagnose ASD at an earlier stage of an individual's
+life, it is important to identify motor skills deficits. Therefore, the paper provides
+a analysis of the role of motor problems in ASD for early diagnosis. We found that
+developmental sensorimotor deficits during early childhood are significant predictors
+of a potential diagnosis of ASD. Motor deficits are usually the first sign of atypical
+development and are intrinsically linked to other developmental domains. However,
+there are still significant gaps to assess the motor function in children with ASD,
+given the heterogeneity found and individual or global limitations of these assessments.
+We conclude that studies using quantitative computational methods to assess and evaluate
+movement are encouraged for early diagnosis and customized therapies to cover the
+broader range of atypical neurodevelopment within ASD.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {28},
+numpages = {4},
+keywords = {biomechanics, motor skills impairments, Autism Spectrum Disorder, early diagnosis},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404248,
+author = {Martin, Joanne L.},
+title = {Designing Human-Object Performances Using Theatre Practices and Machine Learning},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404248},
+doi = {10.1145/3401956.3404248},
+abstract = {The research project, through experimentation with computer vision tools integrating
+machine learning models, will investigate how this technology can be used to develop
+human-object based theatrical performances. Using three case studies, a range of human-object
+interactions will be identified and explored for the development of a collaborative
+performance work, incorporating elements of improvised theatre, dance and interactive
+scenography. Theatrical practices, such as Overlie's Six Viewpoints, will be adopted
+in case study workshops and their utility in the design process assessed. The studies
+will investigate the processes of devised theatre and the potential role machine learning
+tools can play in providing creatives and museum curators with new modes of expression
+and discovery.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {29},
+numpages = {4},
+keywords = {embodied interaction, theatre, improvisation, performance, human-object interaction, six viewpoints, computer vision, immersive museum, machine learning},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404249,
+author = {Brown, Courtney},
+title = {Lament: An Interactive Cabaret Song},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404249},
+doi = {10.1145/3401956.3404249},
+abstract = {Lament is an interactive cabaret song in which skeletal upper body motion capture
+of the vocalist drives musical outcomes. The cabaret context in part drives the musical
+content of the work, which draws from popular, experimental, and minimalist musical
+traditions. The performer movements are influenced by both flamenco and Argentine
+tango dance technique, but are representative of neither. While some melodic and harmonic
+content is fixed, the system employs machine learning techniques to generate melodies
+in real-time. Other harmonic and melodic content is determined by the relationship
+between one part of the performer's body and another.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {30},
+numpages = {2},
+keywords = {HCI, Embodiment, Argentine tango, NIME},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404250,
+author = {Gagner\'{e}, Georges},
+title = {The Shadow},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404250},
+doi = {10.1145/3401956.3404250},
+abstract = {We propose1 a 10 minutes excerpt from the performance The Shadow, after H. C. Andersen,
+directed and performed by Georges Gagner\'{e}. The demo introduces a physical hyper-actor
+playing with musical and visual instruments in a theatrical mixed reality. The focus
+is on the visual instrument that consists in five avatars acting in a virtual shadow
+theater. The hyper-actor directs the avatars with a cueing system that triggers combinations
+of idle and salient animations, respecting the presence effect of the avatars and
+the synchronization with the live performing.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {31},
+numpages = {2},
+keywords = {Avatar direction, performing arts, presence effect, motion capture, mixed reality, hyper-actor},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404251,
+author = {Thorn, Seth Dominicus},
+title = {Hybrid Violin Performance: Model-Free, Abductive Experiment},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404251},
+doi = {10.1145/3401956.3404251},
+abstract = {My augmented violin is a personal instrument consisting of an acoustic violin, realtime
+signal processing, a custom sensor glove, and a violin shoulder rest embedded with
+voice coils for haptic feedback. Feature construction in software is not model-based
+but built by abductive experimentation---continuously refined by trial and error.
+My approach to movement analysis is not based on classifying formalized styles of
+bowing but on continuous tracking of non-tokenized movement and gesture. These techniques
+are co-developed with novel sonification methods ad libitum, conditioning the performance
+media without schematizing possible gestures a priori. Furthermore, ongoing development
+of the instrument, which includes novel haptic feedback elements, effectively symmetrizes
+sensory feedforward and feedback paths---the enactive loop between action and perception---yielding
+refined instrumental dynamics, yet the signal processing decisions entail no claim
+to universality or scientific validity. I improvise with this instrument in live performance,
+unfurling its possibilities and resingularizing my technique.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {32},
+numpages = {2},
+keywords = {interaction design, movement and computing, augmented violin, abductive experiment, gesture},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404252,
+author = {Plant, Nicola and Gibson, Ruth and Diaz, Carlos Gonzalez and Martelli, Bruno and Zbyszy\'{n}ski, Michael and Fiebrink, Rebecca and Gillies, Marco and Hilton, Clarice and Perry, Phoenix},
+title = {Movement Interaction Design for Immersive Media Using Interactive Machine Learning},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404252},
+doi = {10.1145/3401956.3404252},
+abstract = {Interactive Machine Learning is a promising approach for designing movement interaction
+because it allows developers to capture complex movements by simply performing them.
+We introduce a new tool being developed to make embodied interaction design faster,
+adaptable and accessible to developers of varying experience and background. Using
+the tool, we conduct workshops with creative practitioners and developers to explore
+techniques that equip users with embodied ideation design strategies encouraging full
+body interaction for immersive media.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {33},
+numpages = {2},
+keywords = {immersive media, machine learning, movement interaction, virtual reality, interaction design},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404253,
+author = {Ladenheim, Kate and LaViers, Amy},
+title = {Babyface},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404253},
+doi = {10.1145/3401956.3404253},
+abstract = {UPDATED---June 23, 2020. "Babyface" is a machine-augmented, contemporary dance performance
+responding to feminized tropes in popular media and modern technology. Through choreography
+(both human and machine-based), costuming, and sound design, the piece collages ideas
+of perfection, servitude, aspiration, limitation, and spectacle. Specifically, this
+work centers a "cyborg" performer who wears a pair of robotic wings. The wings' two-degree-of-freedom
+motion is activated by the performer's breath through a pressure-sensitive sensor
+placed on the performer's abdomen. This machine defines parameters for the performer's
+choreographic vocabulary extending their physical reach and range of motion and activating,
+while also limiting, the backspace of their body. Through breath activation, it is
+a tool that can be consciously and unconsciously activated. Through tight coupling
+with this machine, "Babyface" offers an artistic response to the gendered pressures
+of modern technologies that absorb and disseminate existing feminine stereotypes.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {34},
+numpages = {2},
+keywords = {Wearable robotics, Feminism, Dance},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404254,
+author = {Knowlton, Christopher},
+title = {Extended Play: Augmented Reality Dance for Vinyl Records},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404254},
+doi = {10.1145/3401956.3404254},
+abstract = {Extended Play is an augmented reality dance work for the rotating surface of a playing
+vinyl record. A custom-designed mobile application for smartphones applies image recognition
+to the center label of a vinyl record to overlay animated avatars and scenes through
+the phone's camera. The avatars rotate with the record as it spins and dance according
+to pre-recorded motion capture data choreographed specifically for a rotating stage
+and that album's music. Paying homage to music box ballerinas and zoetrope animations,
+this installation performance work allows audience members to view and explore the
+performance in their own environment for a personal and intimate experience. This
+work builds the foundation of a platform for viewing and reviewing dance in three-dimensional
+space with augmented reality.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {35},
+numpages = {2},
+keywords = {mixed reality, contemporary dance, dance, augmented reality, smartphones},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404255,
+author = {Muraro, Zjana and Higgs, Colin},
+title = {Portable Interactive Explorations of Motion Data for Choreographers},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404255},
+doi = {10.1145/3401956.3404255},
+abstract = {We present a mocap system designed with an aim towards understanding and incorporating
+the needs of contemporary dance choreographers and their integral relationship to
+somatics into interdisciplinary performance. Somatics here refers to the use of specific
+images and sensorial cognizance of physics principles in the human body which inform
+how the movement is created and performed. We apply these same somatics elements to
+the computational design and share the current state and our preliminary findings
+and results in using the system for a variety of site-specific dance performances.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {36},
+numpages = {2},
+keywords = {Dance Performance, Human Computer Interaction, Real-Time Motion Computation},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404256,
+author = {Ryan, Linda},
+title = {Action Camera Choreography: Generative Movement in Non-Space},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404256},
+doi = {10.1145/3401956.3404256},
+abstract = {Action Camera Choreography is an artistic practice that utilizes wearable technology
+(primarily, but not limited to, action cameras) in dance. It produces a simultaneous
+physical and virtual performance that blends live performance and live video. This
+exposes an innate tension in dance/technology work: that a physical body, when coerced
+to a non-physical medium, is both more and less intimate than its physical counterparts.
+In contrasting both iterations of embodiment (the physical and the non-), the practice
+attempts to reconcile this tension and directly involve the viewer in the act of resolution
+- or, barring this, a recognition that the juxtaposition exists at all.Action Camera
+Choreography has been used in 6 performances and 2 teaching series in the last 2 years,
+engaging audiences and prompting introspection to the way one interacts with technology,
+intimacy, and personhood in performance settings and daily life. More work is needed
+to pinpoint the specific successes and failures of the methodology as an iterative
+artistic practice, teaching tool, and performance series. Future sub-topics of interest
+include the role of the observer in either differentiating or synthesizing the physical
+and digital components; and the implications of visibility in reference to certain
+performers (e.g. queer bodies).},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {37},
+numpages = {2},
+keywords = {MOCO proceedings, dance/technology, dance},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404257,
+author = {Chandrasekaram, Calai and Goonetilleke, Lasantha Chandana},
+title = {Movement Computation and Analysis for Entrainment in the Rhythms of Bharatanatyam},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404257},
+doi = {10.1145/3401956.3404257},
+abstract = {UPDATED---May 20, 2020. Computational video analysis methods based on direct synchronization
+between the dance-beat and the music-beat consider many natural movements irregular
+and non-dancelike. We will give examples, through performances as well as through
+mathematical and computational analysis, to show that such "singularities" can be
+"smoothly continued" by improvisations afforded through the rich structure of rhythm
+in Carnatic music and Bharatanatyam dance.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {38},
+numpages = {2},
+keywords = {Audiomotor analysis, Synchronization, Technique analysis, Carnatic Music, Entrainment, Dance Motion, Performing arts education, Beat Analysis, Bharatanatyam, Video Analysis},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404258,
+author = {Long, Duri and Liu, Lucas and Gujrania, Swar and Naomi, Cassandra and Magerko, Brian},
+title = {Visualizing Improvisation in LuminAI, an AI Partner for Co-Creative Dance},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404258},
+doi = {10.1145/3401956.3404258},
+abstract = {LuminAI is an art installation in which participants can improvise movements with
+an AI dance partner. In this practice work, we will present the LuminAI installation
+as well as two visualization tools that interactively demonstrate how the LuminAI
+agent reasons about movement using both bottom-up learned knowledge and top-down domain
+knowledge. Participants will first be invited to interact with the LuminAI installation,
+where they can improvise movement with an AI agent projected onto a screen. They can
+then see how LuminAI learns relationships between gestures by interacting with MoViz,
+a visualization in which participants can explore the agent's gesture memory and qualitatively
+compare the efficacy of unsupervised learning algorithms at clustering gestures. Finally,
+participants will be invited to interact with a third tool, where they can explore
+how LuminAI applies top-down domain knowledge to gesture reasoning. Participants will
+be able to interactively explore how LuminAI uses Laban Movement Analysis's conception
+of Space to analyze learned movements in terms of the geometric properties of Laban's
+icosahedron and manipulate these properties to transform and generate new movements.
+The two visualization tools both represent novel approaches to understanding and analyzing
+improvisational movement in creative domains.},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {39},
+numpages = {2},
+keywords = {gesture clustering, computational creativity, explainable AI, unsupervised learning, Laban movement analysis, visualization, artificial intelligence, motion analysis, movement improvisation, gesture},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
+@inproceedings{10.1145/3401956.3404259,
+author = {Cuan, Catie},
+title = {OUTPUT: Vestiges of Human and Robot Bodies},
+year = {2020},
+isbn = {9781450375054},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3401956.3404259},
+doi = {10.1145/3401956.3404259},
+abstract = {OUTPUT is a collaboration between a dancer/choreographer, roboticists, software engineers,
+and filmmakers, developed over the course of an artist residency at software engineering
+company Thought-Works. The result is a live performance, two custom software programs,
+a short film, an improvisational structure, and an artistic methodology for choreographing
+robots. The motions of a dancer and a massive industrial robot are collapsed from
+3D into 2D video, animation, and Kinect depth sensor data, revealing the biases and
+limitations of each representation. In performance, the software programs run livetime
+on laptops which are projected onto screens. The performer improvises with these programs
+like musical instruments - a practice bridging computation, improvisation, and dance
+- and embodying the process of "being inside the machine".},
+booktitle = {Proceedings of the 7th International Conference on Movement and Computing},
+articleno = {40},
+numpages = {2},
+keywords = {Dance, Human Computer Interaction, Real-time Motion Computation, Robotics, Improvisation},
+location = {Jersey City/Virtual, NJ, USA},
+series = {MOCO '20}
+}
+
