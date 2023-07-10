@@ -67,7 +67,7 @@
                 menu-item-object-custom
               "
             >
-              <a href="http://moco22.movementcomputing.org/">MOCO'22</a>
+              <a href="/moco24-call-for-papers">MOCO'24</a>
             </li>
             <li
               class="
