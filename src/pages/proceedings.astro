@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Default.astro';
+import BibEntry from '../components/BibEntry.vue';
+import moco14 from '../../public/documents/moco14.bib';
+import moco15 from '../../public/documents/moco15.bib';
+import moco16 from '../../public/documents/moco16.bib';
+import moco17 from '../../public/documents/moco17.bib';
+import moco18 from '../../public/documents/moco18.bib';
+import moco19 from '../../public/documents/moco19.bib';
+import moco20 from '../../public/documents/moco20.bib';
+import moco22 from '../../public/documents/moco22.bib';
+
+const bibs = [
+	["MOCO'22", moco22],
+	["MOCO'20", moco20],
+	["MOCO'19", moco19],
+	["MOCO'18", moco18],
+	["MOCO'17", moco17],
+	["MOCO'16", moco16],
+	["MOCO'15", moco15],
+	["MOCO'14", moco14],
+];
+---
+
+<Layout
+	title="Proceedings"
+	description="Proceedings of the MOCO Conference"
+	pubDate={new Date('August 08 2021')}
+	updatedDate={new Date('August 08 2022')}
+>
+	<section class="container">
+		<div>
+			<section id="main" class="main" role="main">
+				<div id="loop-container" class="loop-container">
+					<div class="post-12 page type-page status-publish hentry entry">
+						<article>
+							<div class="post-header">
+								<h1 class="post-title">Proceedings</h1>
+							</div>
+							<div class="post-content">
+								<p>
+									The proceedings of the MOCO symposium are published on the ACM
+									Digital library under the International Conference Proceedings
+									Series.
+								</p>
+								<p>
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/3537972"
+										target="_blank">MOCO'22 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/3401956"
+										target="_blank">MOCO'20 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/3347122"
+										target="_blank">MOCO'19 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/3212721"
+										target="_blank">MOCO'18 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/3077981"
+										target="_blank">MOCO'17 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/2948910"
+										target="_blank">MOCO'16 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/2790994"
+										target="_blank">MOCO'15 Online Proceedings</a
+									><br />
+									<a
+										href="https://dl.acm.org/doi/proceedings/10.1145/2617995"
+										target="_blank">MOCO'14 Online Proceedings</a
+									>
+								</p>
+								<h1>MOCO Publications</h1>
+								{
+									bibs.map(([bibTitle, bibContent]) => (
+
+										<h3>{bibTitle}</h3>
+										<div class="bibliography">
+											<ul>
+												{
+													bibContent.map((entry) => (
+														<li>
+															<BibEntry entry={entry} />
+														</li>
+													))
+												}
+											</ul>
+										</div>
+									))
+								}
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+</Layout>
