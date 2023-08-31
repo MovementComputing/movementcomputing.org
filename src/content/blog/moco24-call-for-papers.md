@@ -10,7 +10,7 @@ description: We are pleased to invite submissions for paper presentations, perfo
 
 <h3>9th International Conference on Movement and Computing</h3>
 
-<h4>*Thursday 30 May - Sunday 2 June 2022, Utrecht University, the Netherlands*</h4>
+<h4>*Thursday 30 May - Sunday 2 June 2024, Utrecht University, the Netherlands*</h4>
 
 <br>
 
@@ -28,7 +28,7 @@ Contact: l.l.karreman@uu.nl
 
 ### Utrecht welcomes MOCO
 
-We are pleased to invite submissions for paper presentations, performances, workshops and more to the 9th International Conference on Movement and Computing (MOCO) which will be organised from Thursday 28 May – Sunday 2 June 2024 by the research group Transmission in Motion at the Department of Media and Culture Studies at Utrecht University, the Netherlands. The conference is organized in collaboration with the SPRING Performing Arts festival (23 May – 1 June 2024) in Utrecht. MOCO’24 also coincides with the Utrecht Pride (1 June 2024).
+We are pleased to invite submissions for paper presentations, performances, workshops and more to the 9th International Conference on Movement and Computing (MOCO) which will be organised from Thursday 30 May - Sunday 2 June 2024 by the research group Transmission in Motion at the Department of Media and Culture Studies at Utrecht University, the Netherlands. The conference is organized in collaboration with the SPRING Performing Arts festival (23 May – 1 June 2024) in Utrecht. MOCO’24 also coincides with the Utrecht Pride (1 June 2024).
 
 ### MOCO’s 10th anniversary
 
