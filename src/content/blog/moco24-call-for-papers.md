@@ -230,7 +230,7 @@ If you have any questions please contact conference chair Laura Karreman at [l.l
 - ​ Jules Françoise, LIMSI-CNRS
 - ​ Marco Gillies, Goldsmiths, University of London
 - ​ Garrett Johnson, Arizona State University
-- ​ Vilelmini Kalampratsidou, Rutgers University
+- ​ Vilelmini Kalampratsidou, Athena Research Center
 - ​ Steven Kemper, George Mason University
 - ​ Sotiris Manitsaris, MINES ParisTech, PSL Université Paris.
 - ​ Thecla Schiphorst, Simon Fraser University
