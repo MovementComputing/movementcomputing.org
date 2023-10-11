@@ -25,7 +25,7 @@ regards to the MOCO Symposium. Its members currently include :
 - <a href="https://www.julesfrancoise.com/" target="_blank">Jules Françoise</a>, LIMSI-CNRS
 - <a href="https://www.gold.ac.uk/computing/staff/m-gillies/" target="_blank">Marco Gillies</a>, Goldsmiths, University of London
 - <a href="https://www.garrettlaroyjohnson.com/" target="_blank">Garrett Johnson</a>, Arizona State University
-- <a href="http://vilelminikala.com/" target="_blank">Vilelmini Kalampratsidou</a>, Rutgers University
+- <a href="http://vilelminikala.com/" target="_blank">Vilelmini Kalampratsidou</a>, Athena Research Center
 - <a href="https://stevenkemper.com/" target="_blank">Steven Kemper</a>, George Mason University
 - <a href="http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris" target="_blank">Sotiris Manitsaris</a>, MINES ParisTech, PSL Université Paris.
 - <a href="http://www.sfu.ca/~tschipho/), Simon Fraser University" target="_blank">Thecla Schiphorst</a>
