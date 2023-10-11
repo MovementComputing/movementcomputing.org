@@ -13,6 +13,8 @@ description: We are pleased to invite submissions for paper presentations, perfo
 <h4>*Thursday 30 May - Sunday 2 June 2024, Utrecht University, the Netherlands*</h4>
 
 <br>
+Website: <a href="https://moco24.movementcomputing.org/" target="_blank">https://moco24.movementcomputing.org/</a>
+<br>
 
 **in collaboration with the SPRING Performing Arts Festival**
 

@@ -3,63 +3,72 @@ import Layout from '../layouts/Default.astro';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
 
-
 const posts = (await getCollection('blog')).sort(
-	(b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
 ---
 
 <Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	updatedDate={new Date('August 08 2022')}
-	heroImage="/placeholder-about.jpg"
+  title="About Me"
+  description="Lorem ipsum dolor sit amet"
+  pubDate={new Date('August 08 2021')}
+  updatedDate={new Date('August 08 2022')}
+  heroImage="/placeholder-about.jpg"
 >
-	<section class="container">
-		<div>
-			<div class="about">
-				<p>
-					MOCO is the International Conference on Movement and Computing. MOCO
-					aims to gather academics and practitioners interested in the
-					computational study, modelling, representation, segmentation,
-					recognition, classification, or generation of movement information.
-					MOCO is positioned within emerging interdisciplinary domains between
-					art & science.
-				</p>
-			</div>
-			<section id="main" class="main" role="main">
-				<h1 class="screen-reader-text">Movement &amp; Computing Posts</h1>
-				<div id="loop-container" class="loop-container">
-				{
-					posts.map((post) => (
-						<div class="post type-post status-publish format-standard hentry category-uncategorized entry">
-						<article>
-							<div class="post-header">
-								<h2 class="post-title">
-									<a href={`/${post.slug}/`}>{post.data.title}</a>
-								</h2>
-								<div class="post-meta">
-									<p>
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</div>
-							</div>
-							<div class="post-content">
-								<p>{post.data.description}</p>
-								<center>
-									<a class="more-link" href={`/${post.slug}/`}>Continue reading <span class="screen-reader-text">{post.data.title}</span></a>
-								</center>
-							</div>
-						</article>
-						</div>
-					))
-				}
-				</div>
-			</section>
-		</div>
-	</section>
-	<!-- <section>
+  <section class="container">
+    <div>
+      <div class="about">
+        <p>
+          MOCO is the International Conference on Movement and Computing. MOCO
+          aims to gather academics and practitioners interested in the
+          computational study, modelling, representation, segmentation,
+          recognition, classification, or generation of movement information.
+          MOCO is positioned within emerging interdisciplinary domains between
+          art & science.
+        </p>
+        <div style="text-align: center; margin-top: 1rem; margin-bottom: 2rem;">
+          <a href="https://moco24.movementcomputing.org/" class="btn-grad"
+            >to MOCO'24</a
+          >
+        </div>
+      </div>
+      <section id="main" class="main" role="main">
+        <h1 class="screen-reader-text">Movement &amp; Computing Posts</h1>
+        <div id="loop-container" class="loop-container">
+          {
+            posts.map((post) => (
+              <div class="post type-post status-publish format-standard hentry category-uncategorized entry">
+                <article>
+                  <div class="post-header">
+                    <h2 class="post-title">
+                      <a href={`/${post.slug}/`}>{post.data.title}</a>
+                    </h2>
+                    <div class="post-meta">
+                      <p>
+                        <FormattedDate date={post.data.pubDate} />
+                      </p>
+                    </div>
+                  </div>
+                  <div class="post-content">
+                    <p>{post.data.description}</p>
+                    <center>
+                      <a class="more-link" href={`/${post.slug}/`}>
+                        Continue reading{' '}
+                        <span class="screen-reader-text">
+                          {post.data.title}
+                        </span>
+                      </a>
+                    </center>
+                  </div>
+                </article>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+    </div>
+  </section>
+  <!-- <section>
 		<ul>
 			{
 				posts.map((post) => (
@@ -74,18 +83,44 @@ const posts = (await getCollection('blog')).sort(
 </Layout>
 
 <style>
-	.about {
-		border-bottom: 1px solid #d4d4d4;
-		margin-bottom: 20px;
-	}
-	.about > p {
-		font-size: 0.9em;
-		width: 90%;
-		max-width: 600px;
-		margin: 0 auto;
-		padding-bottom: 20px;
-	}
-	.post-meta p {
-		margin-bottom: 0;
-	}
+  .about {
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 20px;
+  }
+  .about > p {
+    font-size: 0.9em;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .post-meta p {
+    margin-bottom: 0;
+  }
+
+  .btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #00c9ff 0%,
+      #92fe9d 51%,
+      #00c9ff 100%
+    );
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+  }
 </style>
