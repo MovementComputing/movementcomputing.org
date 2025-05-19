@@ -5,6 +5,15 @@ pubDate: 2015-10-24 02:06:01+00:00
 type: page
 ---
 
+### MOCO'24
+
+![MOCO'24](/images/moco24_banner.jpg)
+
+The ninth International Conference on Movement and Computing (MOCO'24) was held Utrecht University, the Netherlands, from May 30 to June 2nd, 2024. MOCO'24 was organized by the Faculty of Humanities of Utrecht University, and marked the 10th anniversary of the MOCO conference.
+
+\>\> <a href="http://moco24.movementcomputing.org/" target="_blank">MOCO'24 Website</a><br>
+\>\> <a href="https://dl.acm.org/doi/proceedings/10.1145/3658852" target="_blank">Online Proceedings (ACM Digital Library)</a>
+
 ### MOCO'22
 
 ![MOCO'22](/images/moco22_banner.png)
@@ -13,6 +22,7 @@ The eigth International Conference on Movement and Computing (MOCO'22) was held 
 
 \>\> <a href="http://moco22.movementcomputing.org/" target="_blank">MOCO'22 Website</a><br>
 \>\> <a href="https://dl.acm.org/doi/proceedings/10.1145/3537972" target="_blank">Online Proceedings (ACM Digital Library)</a>
+
 
 ### MOCO'20
 
