@@ -22,7 +22,7 @@ regards to the MOCO Symposium. Its members currently include :
 - ​<a href="https://finearts.illinoisstate.edu/faculty-staff/profile/?ulid=gjcorne" target="_blank">Greg Corness</a>, Illinois State University
 - <a href="https://vbn.aau.dk/en/persons/130223" target="_blank">Cumhur Erkut</a>, Aalborg University Copenhagen,
 - <a href="http://saralaoui.com/" target="_blank">Sarah Fdili Alaoui</a>, University of the Arts London
-- <a href="https://www.julesfrancoise.com/" target="_blank">Jules Françoise</a>, LIMSI-CNRS
+- <a href="https://www.julesfrancoise.com/" target="_blank">Jules Françoise</a>, CNRS, Université Paris-Saclay, LISN
 - <a href="https://www.gold.ac.uk/computing/staff/m-gillies/" target="_blank">Marco Gillies</a>, Goldsmiths, University of London
 - <a href="https://www.garrettlaroyjohnson.com/" target="_blank">Garrett Johnson</a>, Arizona State University
 - <a href="http://vilelminikala.com/" target="_blank">Vilelmini Kalampratsidou</a>, Athena Research Center
