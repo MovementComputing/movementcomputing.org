@@ -19,14 +19,15 @@ regards to the MOCO Symposium. Its members currently include :
 - <a href="http://frederic-bevilacqua.net/" target="_blank">Frédéric Bevilacqua</a>, IRCAM
 - <a href="https://kristinannecarlson.com/about/" target="_blank">Kristin Carlson</a>, Illinois State University
 - <a href="https://asu.pure.elsevier.com/en/persons/grisha-coleman" target="_blank">Grisha Coleman</a>, Arizona State University
-- ​<a href="https://finearts.illinoisstate.edu/faculty-staff/profile/?ulid=gjcorne" target="_blank">Greg Corness</a>, Columbia College Chicago
+- ​<a href="https://finearts.illinoisstate.edu/faculty-staff/profile/?ulid=gjcorne" target="_blank">Greg Corness</a>, Illinois State University
 - <a href="https://vbn.aau.dk/en/persons/130223" target="_blank">Cumhur Erkut</a>, Aalborg University Copenhagen,
-- <a href="http://saralaoui.com/" target="_blank">Sarah Fdili Alaoui</a>, LRI-Université Paris-Sud 11
+- <a href="http://saralaoui.com/" target="_blank">Sarah Fdili Alaoui</a>, University of the Arts London
 - <a href="https://www.julesfrancoise.com/" target="_blank">Jules Françoise</a>, LIMSI-CNRS
 - <a href="https://www.gold.ac.uk/computing/staff/m-gillies/" target="_blank">Marco Gillies</a>, Goldsmiths, University of London
 - <a href="https://www.garrettlaroyjohnson.com/" target="_blank">Garrett Johnson</a>, Arizona State University
 - <a href="http://vilelminikala.com/" target="_blank">Vilelmini Kalampratsidou</a>, Athena Research Center
-- <a href="https://stevenkemper.com/" target="_blank">Steven Kemper</a>, George Mason University
+- <a href="https://www.uu.nl/staff/LLKarreman" target="_blank">Laura Karreman</a>, Utrecht University
+- <a href="https://www.oberlin.edu/steven-kemper" target="_blank">Steven Kemper</a>, Oberlin College and Conservatory
 - <a href="http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris" target="_blank">Sotiris Manitsaris</a>, MINES ParisTech, PSL Université Paris.
 - <a href="http://www.sfu.ca/~tschipho/), Simon Fraser University" target="_blank">Thecla Schiphorst</a>
 - <a href="http://www.infomus.org/people/person.php?name=gvolpe" target="_blank">Gualtiero Volpe</a>, University of Genova
@@ -34,6 +35,6 @@ regards to the MOCO Symposium. Its members currently include :
 
 ## Hosting MOCO
 
-If you wish to apply for hosting a future MOCO conference, please submit your application to moco-share@sfu.ca, according to the guidelines in the following document:
+If you wish to apply for hosting a future MOCO conference, please submit your application to moco-org@lisn.upsaclay.fr, according to the guidelines in the following document:
 
 [MOCO_CallForHosting](/documents/MOCO_CallForHosting.pdf)

@@ -7,4 +7,4 @@ type: page
 
 For general discussion, see the [MOCO Discussion Group](http://movementcomputing.org/discussion-group/).
 
-To contact the steering Committee, email [moco-share@sfu.ca](mailto:moco-share@sfu.ca).
+To contact the steering Committee, email [moco-org@lisn.upsaclay.fr](mailto:moco-org@lisn.upsaclay.fr).
