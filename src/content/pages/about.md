@@ -29,7 +29,7 @@ regards to the MOCO Symposium. Its members currently include :
 - <a href="https://www.uu.nl/staff/LLKarreman" target="_blank">Laura Karreman</a>, Utrecht University
 - <a href="https://www.oberlin.edu/steven-kemper" target="_blank">Steven Kemper</a>, Oberlin College and Conservatory
 - <a href="http://www.mines-paristech.fr/Services/Annuaire/sotiris-manitsaris" target="_blank">Sotiris Manitsaris</a>, MINES ParisTech, PSL Université Paris.
-- <a href="http://www.sfu.ca/~tschipho/), Simon Fraser University" target="_blank">Thecla Schiphorst</a>
+- <a href="http://www.sfu.ca/~tschipho/), Simon Fraser University" target="_blank">Thecla Schiphorst</a>, Simon Fraser University
 - <a href="http://www.infomus.org/people/person.php?name=gvolpe" target="_blank">Gualtiero Volpe</a>, University of Genova
 - <a href="https://www.antoniazaferiou.com/" target="_blank">​Antonia Zaferiou</a>, Stevens Institute of Technology
 
